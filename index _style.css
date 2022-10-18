@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.test
+{
+    background-image: url(gbg9.jpg);
+    width: 500px;
+    
+    height: 500px;
+    margin: auto;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    animation:slaider 2s  alternate infinite ;
+}
+
+@keyframes slaider 
+{
+    0%{background-image: url(gbg0.jpg) ;}
+    25%{background-image: url(gbg1.jpg) ;}
+    50%{background-image: url(gbg2.jpg) ;}
+    75%{background-image: url(gbg3.jpg) ;}
+    90%{background-image: url(gbg4.jpg) ;}
+    
+}
